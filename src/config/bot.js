@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1429122689225855111], // Will be populated from environment or database
   },
 
   // =========================
@@ -264,7 +264,7 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [1429122689225855111],
+    allowedRoles: [],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
